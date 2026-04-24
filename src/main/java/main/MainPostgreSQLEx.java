@@ -7,7 +7,7 @@ import drivers.HeadDriver;
 import java.sql.*;
 
 import static drivers.ConnectionDriver.connection;
-
+//тест
 public class MainPostgreSQLEx {
 
     public static void main(String[] args) throws SQLException {
@@ -15,8 +15,7 @@ public class MainPostgreSQLEx {
         Employee emp2 = new Employee("Gorge", 45894);
         Employee emp3 = new Employee("Stepan", 456);
         Employee emp4 = new Employee("Irina", 876442);
-        Employee emp5 = new Employee("Alex", 98763);
-
+        Employee emp5 = new Employee("ДГ", 98763);
         HeadDriver.setDriver();
         ConnectionDriver.openConnection();
 
